@@ -22,7 +22,7 @@ public class EnemySummon : Singleton<EnemySummon>
     {
         while (true)
         {
-        //TutorialText.Instance.EventProduct(24);
+            //TutorialText.Instance.EventProduct(24);
             Debug.Log("여기검사");
             if (iCountingMonster < 10)
             {
@@ -33,6 +33,7 @@ public class EnemySummon : Singleton<EnemySummon>
                     TutorialText.Instance.LilyLeft.gameObject.SetActive(false);
                     TutorialText.Instance.TutoriaMainTextLayOut.gameObject.SetActive(false);
                     TutorialTextOneMore++;
+                    yield return new WaitForSeconds(0.01f);// 한번 늦추기
                 }
                 MonsterObject = Instantiate(Enemey, My.transform.position, Quaternion.identity);
                 //MonsterAttack.Instance.EnemeyList(iCountingMonster);
