@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharEvent : MonoBehaviour
 {
     public GameObject Box;
     public int InherentNumber;
+    public Image Original;
+    public Image Opaque;
+
 
     private void Start()
     {
@@ -16,15 +20,7 @@ public class CharEvent : MonoBehaviour
     {
         Box.gameObject.SetActive(true);
     }
-
-
-
-
-
-
-
-
-
+    
 
 
 }
