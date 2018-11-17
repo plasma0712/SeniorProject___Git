@@ -7,7 +7,7 @@ public class XMLMonsterData
     public float fNumber;
     public string sName;
     public string sDescription;
-    public float fHp;
+    public string fHp;
     public float fLevel;
     public float fAttack;
     public float fAttackSpeed;

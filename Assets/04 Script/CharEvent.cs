@@ -7,8 +7,8 @@ public class CharEvent : MonoBehaviour
 {
     public GameObject Box;
     public int InherentNumber;
-    public Image Original;
-    public Image Opaque;
+    public GameObject Original;
+    public GameObject Opaque;
 
 
     private void Start()
@@ -18,9 +18,8 @@ public class CharEvent : MonoBehaviour
 
     public void BoxSetActiveTrue()
     {
-        Box.gameObject.SetActive(true);
+         Box.gameObject.SetActive(true);
     }
     
-
 
 }

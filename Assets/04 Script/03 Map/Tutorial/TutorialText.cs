@@ -29,7 +29,6 @@ public class TutorialText : Singleton<TutorialText>
     public GameObject Production02;
     public GameObject MonsterList;
     public GameObject Cave;
-    public GameObject BlindWindow;
     public Text TutorialMenualText;
     public Text TemporatySave;
     public Text DummyText;
@@ -37,6 +36,7 @@ public class TutorialText : Singleton<TutorialText>
     public GameObject GoldEffect;
     public GameObject SoulEffect;
     public GameObject TutoriaMainTextLayOut;
+    public GameObject TutorialFinally;
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     #endregion
@@ -97,8 +97,11 @@ public class TutorialText : Singleton<TutorialText>
             {
                 //Debug.Log("여기 지나나?");
                 TextCount = 0; // 텍스트 카운트 리셋시켜줌
-                NextButton.gameObject.SetActive(true);  // 대화스크립트가 끝나면 여기서 멈춰줌
-                UI_animaiton.Instance.StartCoroutine("UI_ani");
+                if (CurrentText.EventNumber != 30)
+                {
+                    NextButton.gameObject.SetActive(true);  // 대화스크립트가 끝나면 여기서 멈춰줌
+                    UI_animaiton.Instance.StartCoroutine("UI_ani");
+                }
                 Debug.Log("이벤트제어 변수 값 :  " + CurrentText.EventNumber);
                 if (CurrentText.EventNumber == 9)
                 {
@@ -108,8 +111,11 @@ public class TutorialText : Singleton<TutorialText>
                 else if (CurrentText.EventNumber == 30)
                 {
                     NextButton.gameObject.SetActive(false);
-                    LilyLeft.GetComponent<CharEvent>().BoxSetActiveTrue();
-                    Ellisia.GetComponent<CharEvent>().BoxSetActiveTrue();
+                    //LilyLeft.GetComponentInChildren<CharEvent>().BoxSetActiveTrue();
+                    //Ellisia.GetComponentInChildren<CharEvent>().BoxSetActiveTrue();
+
+                   LilyLeft.GetComponent<CharEvent>().BoxSetActiveTrue();
+                   Ellisia.GetComponent<CharEvent>().BoxSetActiveTrue();
                 }
                 StopCoroutine("TutorialTextCoroutine"); // 대화스크립트가 끝나면 여기서 멈춰줌
                 break;
@@ -292,4 +298,9 @@ public class TutorialText : Singleton<TutorialText>
         TextNumber--;
     }
 
+    public void Tendency()
+    {
+        TendencyUIData.Instance.GetSanctity(100); // 현재 릴리만 선택하게 하지만 원래라면 튜토리얼이 끝나고 선지수 100을 기본값으로 책정할 예정이었기 때문에 넣는것
+        TendencyUIData.Instance.GetDarkNess(100); // 만약 고칠예정이라면 튜토리얼이 끝날시, 100점을 미리 주고 선악지수를 추가 증정
+    }
 }
