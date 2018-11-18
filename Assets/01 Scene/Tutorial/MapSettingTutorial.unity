@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 592908504}
   - component: {fileID: 592908503}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: TutorialFinally
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -979,7 +979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 416.9, y: -140.63}
+  m_AnchoredPosition: {x: 416.9, y: -151.7}
   m_SizeDelta: {x: 244.09, y: 76.46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592908503
@@ -1021,6 +1021,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 999158820}
+        m_MethodName: Tendency
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 999158821}
         m_MethodName: MapLobbySceneChange
         m_Mode: 1
@@ -1032,8 +1043,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 999158820}
-        m_MethodName: Tendency
+      - m_Target: {fileID: 999158822}
+        m_MethodName: ThisObjectDestory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1087,6 +1098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602686732}
   - component: {fileID: 602686731}
+  - component: {fileID: 602686733}
   m_Layer: 0
   m_Name: Ellisia
   m_TagString: Untagged
@@ -1152,6 +1164,21 @@ Transform:
   m_Father: {fileID: 999158818}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &602686733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 602686730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78c4179b65598743af1e6e23fe9c92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Box: {fileID: 1924170661}
+  InherentNumber: 30
+  Original: {fileID: 602686730}
+  Opaque: {fileID: 0}
 --- !u!1 &618986961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,6 +2220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382042990}
   - component: {fileID: 1382042991}
+  - component: {fileID: 1382042992}
   m_Layer: 0
   m_Name: Lily(Left)
   m_TagString: Untagged
@@ -2258,6 +2286,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1382042992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382042989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78c4179b65598743af1e6e23fe9c92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Box: {fileID: 2016413760}
+  InherentNumber: 30
+  Original: {fileID: 1382042989}
+  Opaque: {fileID: 0}
 --- !u!1 &1526417758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2636,7 +2679,6 @@ GameObject:
   - component: {fileID: 1924170662}
   - component: {fileID: 1924170663}
   - component: {fileID: 1924170664}
-  - component: {fileID: 1924170665}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2681,21 +2723,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InherentNumber: 30
---- !u!114 &1924170665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1924170661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b78c4179b65598743af1e6e23fe9c92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Box: {fileID: 1924170661}
-  InherentNumber: 30
-  Original: {fileID: 602686730}
-  Opaque: {fileID: 0}
 --- !u!1 &1950403851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,7 +2830,6 @@ GameObject:
   - component: {fileID: 2016413761}
   - component: {fileID: 2016413762}
   - component: {fileID: 2016413763}
-  - component: {fileID: 2016413764}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2848,21 +2874,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InherentNumber: 29
---- !u!114 &2016413764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2016413760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b78c4179b65598743af1e6e23fe9c92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Box: {fileID: 2016413760}
-  InherentNumber: 29
-  Original: {fileID: 1382042989}
-  Opaque: {fileID: 0}
 --- !u!1 &2075371866
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,4 +9,9 @@ public class DontDestory : MonoBehaviour
         DontDestroyOnLoad(this);
         Screen.SetResolution(1080, 1920, true);
     }
+
+    public void ThisObjectDestory()
+    {   
+        Destroy(this.gameObject);
+    }
 }

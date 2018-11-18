@@ -300,7 +300,9 @@ public class TutorialText : Singleton<TutorialText>
 
     public void Tendency()
     {
-        TendencyUIData.Instance.GetSanctity(100); // 현재 릴리만 선택하게 하지만 원래라면 튜토리얼이 끝나고 선지수 100을 기본값으로 책정할 예정이었기 때문에 넣는것
-        TendencyUIData.Instance.GetDarkNess(100); // 만약 고칠예정이라면 튜토리얼이 끝날시, 100점을 미리 주고 선악지수를 추가 증정
+        //TendencyUIData.Instance.GetSanctity(100); // 현재 릴리만 선택하게 하지만 원래라면 튜토리얼이 끝나고 선지수 100을 기본값으로 책정할 예정이었기 때문에 넣는것
+        //TendencyUIData.Instance.GetDarkNess(100); // 만약 고칠예정이라면 튜토리얼이 끝날시, 100점을 미리 주고 선악지수를 추가 증정
+        //ClearStageNumber.Instance.ClearStage();
+        Debug.Log("Tendency 여기 들어옴 ");
     }
 }

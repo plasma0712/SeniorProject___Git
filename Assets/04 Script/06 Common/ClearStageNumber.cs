@@ -21,8 +21,8 @@ public class ClearStageNumber : Singleton<ClearStageNumber>
 
     public void ClearStage()
     {
+        Debug.Log("클리어스테이지 들어옴");
         StageNumber++;
-        XMLClearScene.Instance.CreateXml();
-        
+        XMLClearScene.Instance.CreateXml();        
     }
 }
