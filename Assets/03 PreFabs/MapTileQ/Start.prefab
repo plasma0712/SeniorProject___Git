@@ -113,3 +113,7 @@ MonoBehaviour:
   iCountingMonster: 0
   MonsterList: []
   MonsterObject: {fileID: 0}
+  StageEnemy:
+  - {fileID: 1895034186494438, guid: b9b214ab784cecf4c8d56a4ce615801e, type: 2}
+  - {fileID: 1775217906726490, guid: b04179387c497ce4c8c6aabed0812667, type: 2}
+  - {fileID: 1702363924629124, guid: 6b12901efbc6d2347a3bc9292c3f6869, type: 2}

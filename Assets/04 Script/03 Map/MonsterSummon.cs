@@ -157,7 +157,10 @@ public class MonsterSummon : Singleton<MonsterSummon>
     {
         if (bBuy == true)
         {
-            TutorialText.Instance.SummonSuccess++;
+            if (ClearStageNumber.Instance.StageNumber == 0)
+            {
+                TutorialText.Instance.SummonSuccess++;
+            }
             if (Input.GetMouseButtonDown(0))        // 소환 시키기
             {
                 if (iTileNumbering == 1 && DoingSummon == true)

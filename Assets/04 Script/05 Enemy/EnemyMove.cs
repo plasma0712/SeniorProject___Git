@@ -38,6 +38,8 @@ public class EnemyMove : Singleton<EnemyMove>
             Destroy(this.gameObject);
             StartObject.MonsterList.Remove(this.gameObject);
         }
+
+        if (Count == 9 && LobbyTopUIData.Instance) { }
     }
 
     public void MinusHp(int num)
@@ -79,7 +81,7 @@ public class EnemyMove : Singleton<EnemyMove>
         #endregion
     }
 
-
+    /*
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "LeftRotation")
@@ -104,7 +106,7 @@ public class EnemyMove : Singleton<EnemyMove>
 
         Debug.Log("2D트리거");
     }
-
+    */
 
     public void TutorialMoveSpeedZero()
     {

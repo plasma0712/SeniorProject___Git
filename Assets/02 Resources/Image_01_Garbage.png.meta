@@ -1,0 +1,1252 @@
+fileFormatVersion: 2
+guid: 141ddc3091569a74aac5cd08858c01f3
+timeCreated: 1542605989
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Image_01_Garbage_0
+    21300002: Image_01_Garbage_1
+    21300004: Image_01_Garbage_2
+    21300006: Image_01_Garbage_3
+    21300008: Image_01_Garbage_4
+    21300010: Image_01_Garbage_5
+    21300012: Image_01_Garbage_6
+    21300014: Image_01_Garbage_7
+    21300016: Image_01_Garbage_8
+    21300018: Image_01_Garbage_9
+    21300020: Image_01_Garbage_10
+    21300022: Image_01_Garbage_11
+    21300024: Image_01_Garbage_12
+    21300026: Image_01_Garbage_13
+    21300028: Image_01_Garbage_14
+    21300030: Image_01_Garbage_15
+    21300032: Image_01_Garbage_16
+    21300034: Image_01_Garbage_17
+    21300036: Image_01_Garbage_18
+    21300038: Image_01_Garbage_19
+    21300040: Image_01_Garbage_20
+    21300042: Image_01_Garbage_21
+    21300044: Image_01_Garbage_22
+    21300046: Image_01_Garbage_23
+    21300048: Image_01_Garbage_24
+    21300050: Image_01_Garbage_25
+    21300052: Image_01_Garbage_26
+    21300054: Image_01_Garbage_27
+    21300056: Image_01_Garbage_28
+    21300058: Image_01_Garbage_29
+    21300060: Image_01_Garbage_30
+    21300062: Image_01_Garbage_31
+    21300064: Image_01_Garbage_32
+    21300066: Image_01_Garbage_33
+    21300068: Image_01_Garbage_34
+    21300070: Image_01_Garbage_35
+    21300072: Image_01_Garbage_36
+    21300074: Image_01_Garbage_37
+    21300076: Image_01_Garbage_38
+    21300078: Image_01_Garbage_39
+    21300080: Image_01_Garbage_40
+    21300082: Image_01_Garbage_41
+    21300084: Image_01_Garbage_42
+    21300086: Image_01_Garbage_43
+    21300088: Image_01_Garbage_44
+    21300090: Image_01_Garbage_45
+    21300092: Image_01_Garbage_46
+    21300094: Image_01_Garbage_47
+    21300096: Image_01_Garbage_48
+    21300098: Image_01_Garbage_49
+    21300100: Image_01_Garbage_50
+    21300102: Image_01_Garbage_51
+    21300104: Image_01_Garbage_52
+    21300106: Image_01_Garbage_53
+    21300108: Image_01_Garbage_54
+    21300110: Image_01_Garbage_55
+    21300112: Image_01_Garbage_56
+    21300114: Image_01_Garbage_57
+    21300116: Image_01_Garbage_58
+    21300118: Image_01_Garbage_59
+    21300120: Image_01_Garbage_60
+    21300122: Image_01_Garbage_61
+    21300124: Image_01_Garbage_62
+    21300126: Image_01_Garbage_63
+    21300128: Image_01_Garbage_64
+    21300130: Image_01_Garbage_65
+    21300132: Image_01_Garbage_66
+    21300134: Image_01_Garbage_67
+    21300136: Image_01_Garbage_68
+    21300138: Image_01_Garbage_69
+    21300140: Image_01_Garbage_70
+    21300142: Image_01_Garbage_71
+    21300144: Image_01_Garbage_72
+    21300146: Image_01_Garbage_73
+    21300148: Image_01_Garbage_74
+    21300150: Image_01_Garbage_75
+    21300152: Image_01_Garbage_76
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Image_01_Garbage_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 969
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 972
+        width: 63
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 959
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 972
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 954
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 928
+        width: 114
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_6
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 951
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_7
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 939
+        width: 103
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_8
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 943
+        width: 96
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 963
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 965
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 966
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_12
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 949
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 873
+        width: 81
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 866
+        width: 115
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 875
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_16
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 850
+        width: 91
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_17
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 835
+        width: 81
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_18
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 854
+        width: 104
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_19
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 859
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_20
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 861
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 781
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 796
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 776
+        width: 89
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_24
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 777
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_25
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 753
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_26
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 770
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_27
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 749
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_28
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 751
+        width: 103
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_29
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 768
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_30
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 750
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_31
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 676
+        width: 129
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_32
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 754
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_33
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 743
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 683
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 655
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_36
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 650
+        width: 84
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_37
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 650
+        width: 110
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_38
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 642
+        width: 97
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_39
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 647
+        width: 108
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 595
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 573
+        width: 114
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_42
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 560
+        width: 122
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_43
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 560
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_44
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 552
+        width: 104
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_45
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 556
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_46
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 556
+        width: 93
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_47
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 547
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_48
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 548
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_49
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 187
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 185
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_51
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 184
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_52
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 183
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_53
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 184
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_54
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 181
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_55
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 190
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_56
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 153
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_57
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 152
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_58
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 152
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_59
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 155
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_60
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 154
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_61
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 63
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_62
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 132
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_63
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 123
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_65
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3
+        width: 67
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_67
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_68
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_69
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 54
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_70
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_71
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1
+        width: 87
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_72
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_73
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_74
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_75
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Image_01_Garbage_76
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1
+        width: 81
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

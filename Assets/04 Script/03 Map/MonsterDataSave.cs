@@ -67,6 +67,12 @@ public class MonsterDataSave : Singleton<MonsterDataSave>
                 Effect.gameObject.SetActive(true);
             }
         }
+
+        if(ClearStageNumber.Instance.StageNumber>0)
+        {
+            Effect.gameObject.SetActive(false);
+            Lock.gameObject.SetActive(false);
+        }
         //
     }
 

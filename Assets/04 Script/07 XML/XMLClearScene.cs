@@ -71,6 +71,7 @@ public class XMLClearScene : Singleton<XMLClearScene>
         Document.Save(filePath);
 
         LoadXml();
+        ClearStageNumber.Instance.CurrentClearStage();
     }
 
     public void LoadXml()
