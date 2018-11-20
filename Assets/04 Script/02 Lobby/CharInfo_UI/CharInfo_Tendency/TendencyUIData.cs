@@ -15,6 +15,8 @@ public class TendencyUIData : Singleton<TendencyUIData>
     float fSanctityRatio;   //선 비율
     float fDarkNessRatio;   //악 비율
 
+    public float fTendency; // 0- 중립, 1- 선, 2-악
+
     public GameObject[] gHeartRatioAccording; // 선악비율에 따라 이미지 변경
 
     XMLCharInfoTendencyData CurrentData;
@@ -88,11 +90,30 @@ public class TendencyUIData : Singleton<TendencyUIData>
         }
     }
 
+    void HeartCompareTwo()// 선악 비교함수 변경점
+    {
+        if (fSanctityRatio == fDarkNessRatio)
+        {   // 중립 표시    
+            fTendency = 0;
+        }
+        else if (fSanctityRatio > fDarkNessRatio)
+        {   // 선 표시            
+            fTendency = 1;
+        }
+        else
+        {   // 악 표시     
+            fTendency = 2;
+        }
+
+    }
+
+
     public void GetSanctity(float _ivalue)              // 선 지수 얻을 때 이용할 함수
     {
         fSanctityOrigin += _ivalue;
         HeartRatio();
         HeartCompare();
+        HeartCompareTwo();
         XMLCharInfoTendency.Instance.CreateXml();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
@@ -102,6 +123,7 @@ public class TendencyUIData : Singleton<TendencyUIData>
         fDarkNessOrigin += _ivalue;
         HeartRatio();
         HeartCompare();
+        HeartCompareTwo();
         XMLCharInfoTendency.Instance.CreateXml();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
@@ -113,6 +135,7 @@ public class TendencyUIData : Singleton<TendencyUIData>
         fHeartOrigin = _ivalue;
         HeartRatio();
         HeartCompare();
+        HeartCompareTwo();
         XMLCharInfoTendency.Instance.CreateXml();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
