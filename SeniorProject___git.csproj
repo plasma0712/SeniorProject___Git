@@ -362,6 +362,7 @@
     <Compile Include="Assets\04 Script\CharEvent.cs" />
     <Compile Include="Assets\04 Script\ClickEvent.cs" />
     <Compile Include="Assets\04 Script\IntroToolTipControl.cs" />
+    <Compile Include="Assets\Buffer.cs" />
     <Compile Include="Assets\UI_SpriteChange.cs" />
   </ItemGroup>
   <ItemGroup>

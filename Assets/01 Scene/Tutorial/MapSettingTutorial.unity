@@ -753,7 +753,7 @@ Prefab:
     - target: {fileID: 114209774076424162, guid: cfae486e25e17fe468043cc8847d8af9,
         type: 2}
       propertyPath: m_Text
-      value: Setting
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 224552377319033576, guid: cfae486e25e17fe468043cc8847d8af9,
         type: 2}
@@ -774,6 +774,27 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.x
       value: 120.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 114525850196358276, guid: cfae486e25e17fe468043cc8847d8af9,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9c19faeda37519441abbb5aecf3b8991,
+        type: 3}
+    - target: {fileID: 224376475066073102, guid: cfae486e25e17fe468043cc8847d8af9,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224376475066073102, guid: cfae486e25e17fe468043cc8847d8af9,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224376475066073102, guid: cfae486e25e17fe468043cc8847d8af9,
+        type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cfae486e25e17fe468043cc8847d8af9, type: 2}

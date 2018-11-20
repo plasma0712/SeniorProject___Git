@@ -73,5 +73,14 @@ public class Tower : MonoBehaviour
             aaa = false;
         }
     }
+    private void Start()
+    {
+        Debug.Log("타워스크립트 실행됨?");
+        CharacteristicBuffDelay();
+    }
 
+    public void CharacteristicBuffDelay()
+    {
+        DelayBulletTime += Buffer.Instance.CurrentfTowerDelay; // 딜레이 감소
+    }
 }

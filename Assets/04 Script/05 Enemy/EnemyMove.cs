@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EnemyMove : Singleton<EnemyMove>
 {
-    public int Speed = 10;
-    public int CurHp;
+    public float Speed = 1;
+    public float CurHp;
     public int MaxHp;
     Vector3 MovePoint = Vector3.down;
 
@@ -25,6 +25,7 @@ public class EnemyMove : Singleton<EnemyMove>
         StartObject = GameObject.FindWithTag("Start").GetComponent<EnemySummon>();
         MKList = GameObject.Find("Culling").GetComponent<TowerAttack>();
         Count = EnemySummon.Instance.iCountingMonster;
+        CharacteristicBuffSlow();
     }
 
     // Update is called once per frame
@@ -42,7 +43,7 @@ public class EnemyMove : Singleton<EnemyMove>
         if (Count == 9 && LobbyTopUIData.Instance) { }
     }
 
-    public void MinusHp(int num)
+    public void MinusHp(float num)
     {
         CurHp -= num;
     }
@@ -115,5 +116,10 @@ public class EnemyMove : Singleton<EnemyMove>
     public void TutorialMoveSpeed()
     {
         Speed = 1;
+    }
+
+    public void CharacteristicBuffSlow()
+    {
+        Speed += Buffer.Instance.CurrentfEnemySpeed;
     }
 }

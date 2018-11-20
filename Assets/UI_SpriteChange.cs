@@ -7,10 +7,14 @@ public class UI_SpriteChange : Singleton<UI_SpriteChange>
 {
     public Sprite[] Tendency;
     public GameObject TendencyTopUI;
-    
+
+    public void Start()
+    {
+        TendencyChangeUI();
+    }
+
     public void TendencyChangeUI()
     {
-        //.Tendency[(int)TendencyUIData.Instance.fTendency];
         TendencyTopUI.GetComponent<Image>().sprite = Tendency[(int)TendencyUIData.Instance.fTendency];
     }
 

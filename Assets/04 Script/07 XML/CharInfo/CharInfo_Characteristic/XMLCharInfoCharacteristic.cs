@@ -104,6 +104,7 @@ public class XMLCharInfoCharacteristic : Singleton<XMLCharInfoCharacteristic>
         {
             XMLCharInfoCharacteristicData Characteristic = new XMLCharInfoCharacteristicData
             {
+                iCount = System.Convert.ToInt32(CharacteristicElement.GetAttribute("iCount")),
                 InherentNumber = System.Convert.ToInt32(CharacteristicElement.GetAttribute("InherentNumber")),
                 //             Point = System.Convert.ToInt32(CharacteristicElement.GetAttribute("Point")),
                 Bool = System.Convert.ToInt32(CharacteristicElement.GetAttribute("Bool")),
@@ -113,7 +114,7 @@ public class XMLCharInfoCharacteristic : Singleton<XMLCharInfoCharacteristic>
         }
     }
 
-    public void AddXmlNode(string InherentNumber, string Bool)
+    public void AddXmlNode(string iCount,string InherentNumber, string Bool)
     {
         Characteristics = new List<XMLCharInfoCharacteristicData>();
         XmlDocument Document = new XmlDocument();
@@ -125,6 +126,7 @@ public class XMLCharInfoCharacteristic : Singleton<XMLCharInfoCharacteristic>
 
         XmlElement childNode = Document.CreateElement("Characteristic");
 
+        childNode.SetAttribute("iCount", iCount);
         childNode.SetAttribute("InherentNumber", InherentNumber);
         childNode.SetAttribute("Bool", Bool);
 

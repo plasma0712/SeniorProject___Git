@@ -11,7 +11,7 @@ public class BulletController : MonoBehaviour
     public GameObject BulletCore;
     public TowerAttack MonsterAttack_Range;
     public EnemyMove Enemy;
-    public int damage;
+    public float damage;
     public bool TargetLife;
     bool bullet_Destory;
     bool bulletDamageOnePoint;
@@ -23,6 +23,7 @@ public class BulletController : MonoBehaviour
         bullet_Destory = false;
         TargetLife = false;
         animator = BulletCore.gameObject.GetComponentInChildren<Animator>();
+        CharacteristicBuffDamage();
         //Enemy = GameObject.FindWithTag("Enemy").GetComponent<EnemyMove>();
         //MonsterAttack_Range = GameObject.FindWithTag("Range").GetComponent<MonsterAttack>();
     }
@@ -67,5 +68,10 @@ public class BulletController : MonoBehaviour
             Enemy.MinusHp(damage);
             bullet_Destory = true;
         }
+    }
+
+    public void CharacteristicBuffDamage()
+    {
+        damage += Buffer.Instance.CurrentfTowerAttack;
     }
 }
