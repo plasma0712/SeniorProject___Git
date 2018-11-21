@@ -75,7 +75,7 @@ public class Tower : MonoBehaviour
     }
     private void Start()
     {
-        Debug.Log("타워스크립트 실행됨?");
+        //Debug.Log("타워스크립트 실행됨?");
         CharacteristicBuffDelay();
     }
 

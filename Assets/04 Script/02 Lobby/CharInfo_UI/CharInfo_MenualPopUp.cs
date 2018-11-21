@@ -8,6 +8,7 @@ public class CharInfo_MenualPopUp : MonoBehaviour
 {
     public int CharacteristicButtonInfo;   // 버튼마다 특정 고유번호를 주어 XML로 저장된 파일 검사를 통해 이름을 가지고 올 예정
     public GameObject MenuPopUp;
+    public Text MenualNameText;
     public Text MenualText;
 
     MenualText CurrentText; // 현재 텍스트
@@ -15,6 +16,7 @@ public class CharInfo_MenualPopUp : MonoBehaviour
     public void CurrentMenualText() // 현재메뉴의 텍스트를 불러오는 함수 
     {
         CurrentText = XMLMenual.Instance.GetMenual(CharacteristicButtonInfo); // XMLMenual에 있는 GetMenual함수를 통해 현재 번호(특성의 이름)와 같은 배열에 있는 특정 정보를 불러온다.
+        MenualNameText.text = CurrentText.MenualNameText;
         MenualText.text = CurrentText.MenualExplanationText;                  // CurrentText에 담긴 정보중 MenualExplantionText의 정보를 불러와 MenualText를 불러온다.
     }
 
@@ -35,10 +37,26 @@ public class CharInfo_MenualPopUp : MonoBehaviour
     {                         // 이렇게 진행을 할경우 update를 통해 쓸때없는 호출을 줄이면서, 정보창을 어느 포지션이든 자연스럽게 보이게 할 수 있다.
         while (true)
         {
+            CurrentMenualText();
             yield return new WaitForSeconds(0.02f);
             Vector3 target = Camera.main.ScreenToWorldPoint(Input.mousePosition); // 타겟의 위치 즉 마우스 좌표 값.
+            //target.x += 1f;
+            if (CurrentText.InherentNumber >= 0 && CurrentText.InherentNumber < 4)
+            {
+                target.x += 1.3f;
+            }
+            else if (CurrentText.InherentNumber >= 4 && CurrentText.InherentNumber < 8)
+            {
+
+            }
+            else
+            {
+                target.x -= 1.5f;
+            }
+            Debug.Log(Input.mousePosition);
             MenuPopUp.transform.position = RectTransformUtility.WorldToScreenPoint(Camera.main, target);  //마우스 포지션먼저 가져오기 (순서때문에 꼬일 가능성 다분)
             MenuPopUp.SetActive(true); // 특성메뉴얼을 킨다.
+            MenualImageChange.Instance.CharacteristicUIChange(CharacteristicButtonInfo);
             CurrentMenualText(); // 함수를 호출하여 MenualText의 텍스트를 변경한다.
         }
     }

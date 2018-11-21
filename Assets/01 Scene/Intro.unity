@@ -470,6 +470,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5162248031ed2c4b8489884c877b2b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fTowerAttack: 0
+  CurrentfTowerAttack: 0
+  fEnemySpeed: 0
+  CurrentfEnemySpeed: 0
+  fTowerDelay: 0
+  CurrentfTowerDelay: 0
 --- !u!1 &178429166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1258,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 157542319}
+    - target: {fileID: 1132662718907754, guid: cc3b9f91d43adfc4ea35add316a9b1b7, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc3b9f91d43adfc4ea35add316a9b1b7, type: 2}
   m_IsPrefabParent: 0
@@ -1667,9 +1677,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 303eb76cc35d0f84189ff9333cce532f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: {fileID: 8300000, guid: 5f19fc1e6e03c064c8fecad5a80f1e33, type: 3}
-  EventNumber12: {fileID: 8300000, guid: 93128d51d5ead764a9dad3234a3319f4, type: 3}
-  KeyBoard: {fileID: 8300000, guid: 10e87e207d6149f44a7e14781d65b332, type: 3}
+  Title: {fileID: 0}
+  EventNumber12: {fileID: 0}
+  KeyBoard: {fileID: 0}
 --- !u!1 &1492342447
 GameObject:
   m_ObjectHideFlags: 0

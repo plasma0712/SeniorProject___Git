@@ -30,6 +30,7 @@ public class TendencyUIData : Singleton<TendencyUIData>
         fHeartOrigin = fHeart;                  // XML데이터값을 받은 fHeart값이 fHeartOrigin을 초기화
         HeartRatio();                           // 심성 비율을 계산해주는 함수를 호출
         HeartCompare();                         // 선 악 비교함수를 함수
+        HeartCompareTwo();
         //UI_SpriteChange.Instance.TendencyChangeUI();
 
 
@@ -115,9 +116,9 @@ public class TendencyUIData : Singleton<TendencyUIData>
         HeartRatio();
         HeartCompare();
         HeartCompareTwo();
-        UI_SpriteChange.Instance.TendencyChangeUI();
 
         XMLCharInfoTendency.Instance.CreateXml();
+        UI_SpriteChange.Instance.TendencyChangeUI();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
 
@@ -127,9 +128,9 @@ public class TendencyUIData : Singleton<TendencyUIData>
         HeartRatio();
         HeartCompare();
         HeartCompareTwo();
-        UI_SpriteChange.Instance.TendencyChangeUI();
 
         XMLCharInfoTendency.Instance.CreateXml();
+        UI_SpriteChange.Instance.TendencyChangeUI();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
 
@@ -141,9 +142,9 @@ public class TendencyUIData : Singleton<TendencyUIData>
         HeartRatio();
         HeartCompare();
         HeartCompareTwo();
-        UI_SpriteChange.Instance.TendencyChangeUI();
 
         XMLCharInfoTendency.Instance.CreateXml();
+        UI_SpriteChange.Instance.TendencyChangeUI();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
 }

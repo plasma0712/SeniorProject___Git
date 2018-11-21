@@ -26,6 +26,7 @@ public class XMLMenual : Singleton<XMLMenual>
             MenualText Menual = new MenualText
             {
                 InherentNumber = i,
+                MenualNameText = "ABCDEFG",
                 MenualExplanationText = i + " : 가나다라"
             };
 
@@ -40,6 +41,7 @@ public class XMLMenual : Singleton<XMLMenual>
         {
             XmlElement MenualElement = Document.CreateElement("Menual");
             MenualElement.SetAttribute("InherentNumber", Menual.InherentNumber.ToString());
+            MenualElement.SetAttribute("MenualNameText", Menual.MenualNameText.ToString());
             MenualElement.SetAttribute("MenualExplanationText", Menual.MenualExplanationText.ToString());
 
             MenualListElement.AppendChild(MenualElement);            
@@ -61,6 +63,7 @@ public class XMLMenual : Singleton<XMLMenual>
             MenualText Menual = new MenualText
             {
                 InherentNumber = System.Convert.ToInt32(MenualElement.GetAttribute("InherentNumber")),
+                MenualNameText= MenualElement.GetAttribute("MenualNameText"),
                 MenualExplanationText = MenualElement.GetAttribute("MenualExplanationText")                
             };
                 //Debug.Log(MenualElement.GetAttribute("MenualExplanationText"));
@@ -95,5 +98,6 @@ public class XMLMenual : Singleton<XMLMenual>
 public class MenualText
 {
     public int InherentNumber;
+    public string MenualNameText;
     public string MenualExplanationText;
 }
