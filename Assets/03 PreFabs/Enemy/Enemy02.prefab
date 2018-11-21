@@ -238,8 +238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  CurHp: 150
-  MaxHp: 150
+  CurHp: 1500
+  MaxHp: 1500
   Count: 0
   StartObject: {fileID: 0}
   TutorialSpot: {fileID: 1865722377993232}

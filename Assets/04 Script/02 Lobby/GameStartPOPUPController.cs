@@ -43,20 +43,21 @@ public class GameStartPOPUPController : Singleton<GameStartPOPUPController>
     }
 
 
-    public void StageClearDeathSelect()
+    public void StageClearDeathSelect() //죽일 때,
     {
         ClearStageNumber.Instance.ClearStage();
         LobbyTopUIData.Instance.GetGold(500);
         LobbyTopUIData.Instance.GetSoul(500);
-
+        LobbyTopUIData.Instance.GetHeart(1);
+        CharacteristicUIData.Instance.GetCharacteristicPoint(10);
     }
 
-    public void StageClearLifeSelect()
+    public void StageClearLifeSelect() //살릴 때,
     {
         ClearStageNumber.Instance.ClearStage();
         LobbyTopUIData.Instance.GetGold(200);
         LobbyTopUIData.Instance.GetSoul(200);
-
+        CharacteristicUIData.Instance.GetCharacteristicPoint(5);
     }
 
 }

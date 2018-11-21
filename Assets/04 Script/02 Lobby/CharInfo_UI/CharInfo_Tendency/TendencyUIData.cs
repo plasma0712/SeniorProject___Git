@@ -118,7 +118,7 @@ public class TendencyUIData : Singleton<TendencyUIData>
         HeartCompareTwo();
 
         XMLCharInfoTendency.Instance.CreateXml();
-        UI_SpriteChange.Instance.TendencyChangeUI();
+        //UI_SpriteChange.Instance.TendencyChangeUI();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
 
@@ -130,7 +130,7 @@ public class TendencyUIData : Singleton<TendencyUIData>
         HeartCompareTwo();
 
         XMLCharInfoTendency.Instance.CreateXml();
-        UI_SpriteChange.Instance.TendencyChangeUI();
+        //UI_SpriteChange.Instance.TendencyChangeUI();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
 
@@ -144,7 +144,7 @@ public class TendencyUIData : Singleton<TendencyUIData>
         HeartCompareTwo();
 
         XMLCharInfoTendency.Instance.CreateXml();
-        UI_SpriteChange.Instance.TendencyChangeUI();
+        //UI_SpriteChange.Instance.TendencyChangeUI();
         TendencyUIXMLLoad.Instance.CurrentTendencyUIText();
     }
 }

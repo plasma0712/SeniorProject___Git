@@ -121,5 +121,6 @@ public class EnemyMove : Singleton<EnemyMove>
     public void CharacteristicBuffSlow()
     {
         Speed += Buffer.Instance.CurrentfEnemySpeed;
+        Debug.Log(Buffer.Instance.CurrentfEnemySpeed);
     }
 }

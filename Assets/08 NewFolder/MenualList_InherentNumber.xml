@@ -1,16 +1,16 @@
 <MenualList>
-  <Menual InherentNumber="0"  MenualNameText="타워 공격력 증가 C" MenualExplanationText="타워의 공격이 1.0 만큼 추가로 증가합니다. " />
-  <Menual InherentNumber="1"  MenualNameText="타워 공격력 증가 B" MenualExplanationText="타워의 공격이 2.0 만큼 추가로 증가합니다. " />
-  <Menual InherentNumber="2"  MenualNameText="타워 공격력 증가 A" MenualExplanationText="타워의 공격이 4.0 만큼 추가로 증가합니다. " />
-  <Menual InherentNumber="3"  MenualNameText="타워 공격력 증가 S" MenualExplanationText="타워의 공격이 8.0 만큼 추가로 증가합니다. " />
-  <Menual InherentNumber="5"  MenualNameText="적 이동속도 감소 C" MenualExplanationText="적의 이동속도를 0.01 만큼 추가로 감소 시킵니다." />
-  <Menual InherentNumber="4"  MenualNameText="적 이동속도 감소 B" MenualExplanationText="적의 이동속도를 0.02 만큼 추가로 감소 시킵니다." />
-  <Menual InherentNumber="6"  MenualNameText="적 이동속도 감소 A" MenualExplanationText="적의 이동속도를 0.04 만큼 추가로 감소 시킵니다." />
-  <Menual InherentNumber="7"  MenualNameText="적 이동속도 감소 S" MenualExplanationText="적의 이동속도를 0.08 만큼 추가로 감소 시킵니다." />
-  <Menual InherentNumber="8"  MenualNameText="타워 공격딜레이 감소 C" MenualExplanationText="타워의 공격 딜레이가 0.01 만큼 추가로 감소합니다." />
-  <Menual InherentNumber="9"  MenualNameText="타워 공격딜레이 감소 B" MenualExplanationText="타워의 공격 딜레이가 0.02 만큼 추가로 감소합니다." />
-  <Menual InherentNumber="10" MenualNameText="타워 공격딜레이 감소 A" MenualExplanationText="타워의 공격 딜레이가 0.04 만큼 추가로 감소합니다." />
-  <Menual InherentNumber="11" MenualNameText="타워 공격딜레이 감소 S" MenualExplanationText="타워의 공격 딜레이가 0.08 만큼 추가로 감소합니다." />
+  <Menual InherentNumber="0"  MenualNameText="● 타워 공격력 증가 C" MenualExplanationText="타워의 공격이 1.0 만큼 추가로 증가합니다. " />
+  <Menual InherentNumber="1"  MenualNameText="● 타워 공격력 증가 B" MenualExplanationText="타워의 공격이 2.0 만큼 추가로 증가합니다. " />
+  <Menual InherentNumber="2"  MenualNameText="● 타워 공격력 증가 A" MenualExplanationText="타워의 공격이 4.0 만큼 추가로 증가합니다. " />
+  <Menual InherentNumber="3"  MenualNameText="● 타워 공격력 증가 S" MenualExplanationText="타워의 공격이 8.0 만큼 추가로 증가합니다. " />
+  <Menual InherentNumber="4"  MenualNameText="● 적 이동속도 감소 C" MenualExplanationText="적의 이동속도를 0.01 만큼 추가로 감소 시킵니다." />
+  <Menual InherentNumber="5"  MenualNameText="● 적 이동속도 감소 B" MenualExplanationText="적의 이동속도를 0.02 만큼 추가로 감소 시킵니다." />
+  <Menual InherentNumber="6"  MenualNameText="● 적 이동속도 감소 A" MenualExplanationText="적의 이동속도를 0.04 만큼 추가로 감소 시킵니다." />
+  <Menual InherentNumber="7"  MenualNameText="● 적 이동속도 감소 S" MenualExplanationText="적의 이동속도를 0.08 만큼 추가로 감소 시킵니다." />
+  <Menual InherentNumber="8"  MenualNameText="● 타워 공격딜레이 감소 C" MenualExplanationText="타워의 공격 딜레이가 0.01 만큼 추가로 감소합니다." />
+  <Menual InherentNumber="9"  MenualNameText="● 타워 공격딜레이 감소 B" MenualExplanationText="타워의 공격 딜레이가 0.02 만큼 추가로 감소합니다." />
+  <Menual InherentNumber="10" MenualNameText="● 타워 공격딜레이 감소 A" MenualExplanationText="타워의 공격 딜레이가 0.04 만큼 추가로 감소합니다." />
+  <Menual InherentNumber="11" MenualNameText="● 타워 공격딜레이 감소 S" MenualExplanationText="타워의 공격 딜레이가 0.08 만큼 추가로 감소합니다." />
   <Menual InherentNumber="12" MenualNameText="12 : ABCDEFG" MenualExplanationText="12 : 가나다라" />
   <Menual InherentNumber="13" MenualNameText="13 : ABCDEFG" MenualExplanationText="13 : 가나다라" />
   <Menual InherentNumber="14" MenualNameText="14 : ABCDEFG" MenualExplanationText="14 : 가나다라" />

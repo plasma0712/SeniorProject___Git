@@ -48,4 +48,28 @@ public class SceneChange : Singleton <SceneChange>
         SceneManager.LoadScene("GameStartTutorial");
     }
 
+    public void GameStartScene()
+    {
+        if(ClearStageNumber.Instance.StageNumber>=4)
+        {
+            ///summary///
+            ///엔딩 씬으로 넘어가야함.
+            ///Tendency가 
+            ///선 일 경우 
+            ///악 일 경우
+            ///중립 일 경우
+            ///
+            ///기본적으로 이벤트 씬은 3가지
+            ///히든 이벤트도 넣어 볼 생각 (하트가 5개 이상일 경우)
+            ///
+            /// 
+            ///summary///
+        }
+        else
+        SceneManager.LoadScene("GameStart");
+
+    }
+
+
+
 }
