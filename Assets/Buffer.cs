@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Buffer : Singleton<Buffer>
 {
-    [HideInInspector]public float fTowerAttack;
-    [HideInInspector]public float CurrentfTowerAttack;
-    [HideInInspector]public float fEnemySpeed;
-    [HideInInspector]public float CurrentfEnemySpeed;
-    [HideInInspector]public float fTowerDelay;
-    [HideInInspector]public float CurrentfTowerDelay;
+    [HideInInspector] public float fTowerAttack;
+    [HideInInspector] public float CurrentfTowerAttack;
+    [HideInInspector] public float fEnemySpeed;
+    [HideInInspector] public float CurrentfEnemySpeed;
+    [HideInInspector] public float fTowerDelay;
+    [HideInInspector] public float CurrentfTowerDelay;
 
     XMLCharInfoCharacteristicData CurrentData;
 
@@ -49,6 +49,7 @@ public class Buffer : Singleton<Buffer>
         {
             fTowerAttack = 8.0f;
             CurrentfTowerAttack += fTowerAttack;
+            Debug.Log(CurrentfTowerAttack);
         }
         #endregion
         #region 파랑색 특성, 적 이동속도 감소
@@ -95,12 +96,16 @@ public class Buffer : Singleton<Buffer>
             CurrentfTowerDelay -= fTowerDelay;
         }
         #endregion
-
         else
         {
             return;
         }
     }
 
-
+    public void CharacteristicReset()
+    {
+        CurrentfTowerAttack = 0;
+        CurrentfEnemySpeed = 0;
+        CurrentfTowerDelay = 0;
+    }
 }

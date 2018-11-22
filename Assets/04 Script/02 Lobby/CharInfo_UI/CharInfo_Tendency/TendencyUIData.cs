@@ -33,7 +33,6 @@ public class TendencyUIData : Singleton<TendencyUIData>
         HeartCompareTwo();
         //UI_SpriteChange.Instance.TendencyChangeUI();
 
-
         /////////////////// 삭제할 예정 왜 고쳐야하는이유 : 튜토리얼 마지막단계에서 올려주려고했지만 그렇게 했을 경우 에러가 뜸 이 유아이 데이터를 못받아와서 그렇기 때문에 이걸 일단 방지
         if (ClearStageNumber.Instance.StageNumber == 0)
         {

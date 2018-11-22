@@ -96,6 +96,7 @@ public class EnemySummon : Singleton<EnemySummon>
         {
             StartCoroutine("StageEnemySummons");
         }
+        Buffer.Instance.Characteristic();
     }
 
     IEnumerator StageEnemySummons()
