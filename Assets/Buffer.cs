@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class Buffer : Singleton<Buffer>
 {
-    [HideInInspector] public float fTowerAttack;
-    [HideInInspector] public float CurrentfTowerAttack;
-    [HideInInspector] public float fEnemySpeed;
-    [HideInInspector] public float CurrentfEnemySpeed;
-    [HideInInspector] public float fTowerDelay;
-    [HideInInspector] public float CurrentfTowerDelay;
+    //[HideInInspector] public float fTowerAttack;
+    //[HideInInspector] public float CurrentfTowerAttack;
+    //[HideInInspector] public float fEnemySpeed;
+    //[HideInInspector] public float CurrentfEnemySpeed;
+    //[HideInInspector] public float fTowerDelay;
+    //[HideInInspector] public float CurrentfTowerDelay;
+
+    public float fTowerAttack;
+    public float CurrentfTowerAttack;
+    public float fEnemySpeed;
+    public float CurrentfEnemySpeed;
+    public float fTowerDelay;
+    public float CurrentfTowerDelay;
 
     XMLCharInfoCharacteristicData CurrentData;
 

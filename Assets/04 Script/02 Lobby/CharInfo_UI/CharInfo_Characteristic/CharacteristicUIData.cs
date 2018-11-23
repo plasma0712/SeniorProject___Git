@@ -23,7 +23,7 @@ public class CharacteristicUIData : Singleton<CharacteristicUIData>
         CurrentCharacteristicPointData();
         CharacteristicUIXMLLoad.Instance.CurrentCharacteristicPointText();
         CharacteristicPointOriginal = CharacteristicPoint;
-        Buffer.Instance.CharacteristicReset();
+        //Buffer.Instance.CharacteristicReset();
     }
     public void CurrentCharacteristicData(int _value)
     {

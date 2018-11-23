@@ -18,7 +18,7 @@ public class LobbyTopUIData : Singleton<LobbyTopUIData>                // 어디
     {
         CurrentLobbyTopUIData();
         LobbyTopUIXMLLoad.Instance.CurrentLobbyTopUIText();
-
+        
         iGoldOrigin = iGold;                                            // iGold값이라는 데이터를 가지고와 변경처리해준다. 
         iSoulOrigin = iSoul;                                            // iSoul값이라는 데이터를 가지고와 변경처리해준다. 
         iHeartOrigin = iHeart;                                          // iHeart값이라는 데이터를 가지고와 변경처리해준다. 

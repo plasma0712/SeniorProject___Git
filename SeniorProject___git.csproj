@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -365,6 +363,7 @@
     <Compile Include="Assets\04 Script\ClickEvent.cs" />
     <Compile Include="Assets\04 Script\IntroToolTipControl.cs" />
     <Compile Include="Assets\Buffer.cs" />
+    <Compile Include="Assets\ETC_.cs" />
     <Compile Include="Assets\ETCCoroutine.cs" />
     <Compile Include="Assets\MenualImageChange.cs" />
     <Compile Include="Assets\UI_SpriteChange.cs" />
@@ -376,14 +375,10 @@
     <None Include="Assets\08 NewFolder\LobbyTopUIList.xml" />
     <None Include="Assets\08 NewFolder\MapList.xml" />
     <None Include="Assets\08 NewFolder\MapSettingTutorial.xml" />
-    <None Include="Assets\08 NewFolder\MenualList_InherentNumber.xml">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Assets\08 NewFolder\MenualList_InherentNumber.xml" />
     <None Include="Assets\08 NewFolder\MonsterList.xml" />
     <None Include="Assets\08 NewFolder\MonsterListUnLockList.xml" />
-    <None Include="Assets\08 NewFolder\MonsterSummonList.xml">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Assets\08 NewFolder\MonsterSummonList.xml" />
     <None Include="Assets\08 NewFolder\TendencyList.xml" />
     <None Include="Assets\Resources\CharacteristicList.xml" />
     <None Include="Assets\Resources\CharacteristicPointList.xml" />

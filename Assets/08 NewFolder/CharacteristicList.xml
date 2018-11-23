@@ -8,4 +8,7 @@
   <Characteristic iCount="6" InherentNumber="10" Bool="1" />
   <Characteristic iCount="7" InherentNumber="11" Bool="1" />
   <Characteristic iCount="8" InherentNumber="1" Bool="1" />
+  <Characteristic iCount="9" InherentNumber="2" Bool="1" />
+  <Characteristic iCount="10" InherentNumber="7" Bool="1" />
+  <Characteristic iCount="11" InherentNumber="3" Bool="1" />
 </CharacteristicList>
