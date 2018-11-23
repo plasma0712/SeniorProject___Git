@@ -1,14 +1,1 @@
-<CharacteristicList>
-  <Characteristic iCount="0" InherentNumber="0" Bool="1" />
-  <Characteristic iCount="1" InherentNumber="4" Bool="1" />
-  <Characteristic iCount="2" InherentNumber="8" Bool="1" />
-  <Characteristic iCount="3" InherentNumber="5" Bool="1" />
-  <Characteristic iCount="4" InherentNumber="9" Bool="1" />
-  <Characteristic iCount="5" InherentNumber="6" Bool="1" />
-  <Characteristic iCount="6" InherentNumber="10" Bool="1" />
-  <Characteristic iCount="7" InherentNumber="11" Bool="1" />
-  <Characteristic iCount="8" InherentNumber="1" Bool="1" />
-  <Characteristic iCount="9" InherentNumber="2" Bool="1" />
-  <Characteristic iCount="10" InherentNumber="7" Bool="1" />
-  <Characteristic iCount="11" InherentNumber="3" Bool="1" />
-</CharacteristicList>
+<CharacteristicList />

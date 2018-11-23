@@ -69,11 +69,11 @@ public class Tower : MonoBehaviour
         if (k == ObjectInRangeList.Count)
         {
             StopCoroutine("DelayBullet");
-            Debug.Log("여기?");
+            //Debug.Log("여기?");
             aaa = false;
         }
     }
-    private void Start()
+    private void Awake()
     {
         //Debug.Log("타워스크립트 실행됨?");
         CharacteristicBuffDelay();

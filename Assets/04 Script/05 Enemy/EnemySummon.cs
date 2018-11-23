@@ -103,7 +103,7 @@ public class EnemySummon : Singleton<EnemySummon>
     {
         while (true)
         {
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(3.0f);
             if (EnemySummon.Instance.iCountingMonster < 10)
             {
                 if (ClearStageNumber.Instance.StageNumber == 1)
@@ -131,7 +131,7 @@ public class EnemySummon : Singleton<EnemySummon>
             }
             else
             {
-                Debug.Log("여기 들어오긴하냐?");
+                //Debug.Log("여기 들어오긴하냐?");
                 StartCoroutine("StageClear");
                 StopCoroutine("StageEnemySummons");
             }
@@ -142,7 +142,7 @@ public class EnemySummon : Singleton<EnemySummon>
     {
         while (true)
         {
-            Debug.Log("여기 들어오긴하냐고!!!!!!!");
+//            Debug.Log("여기 들어오긴하냐고!!!!!!!");
             yield return new WaitForSeconds(1.0f);
             if (MonsterList.Count == 0  && LobbyTopUIData.Instance.iHeart > 0)
             {

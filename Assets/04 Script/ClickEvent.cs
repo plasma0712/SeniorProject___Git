@@ -13,6 +13,10 @@ public class ClickEvent : MonoBehaviour
             TutorialText.Instance.TutorialFinally.gameObject.SetActive(true);
 
         }
+        else if(InherentNumber==30)
+        {
+            TutorialText.Instance.TutorialFinally.gameObject.SetActive(true);
+        }
         else
         {
             TutorialText.Instance.TutorialFinally.gameObject.SetActive(false);

@@ -167,7 +167,7 @@ MonoBehaviour:
   firePos: {fileID: 4078017646973224}
   BC: {fileID: 0}
   aaa: 0
-  DelayBulletTime: 1
+  DelayBulletTime: 0.6
   ObjectInRangeList: []
 --- !u!135 &135051296624068710
 SphereCollider:

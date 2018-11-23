@@ -1,9 +1,9 @@
 <MonsterList>
-  <Monster fNumber="0" sName="리프리스" sDescription="약 140년전 영웅 크로아가 썼던 검" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="8" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="10000" fSoul="10000" />
-  <Monster fNumber="1" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="200" fSoul="200" />
-  <Monster fNumber="2" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="300" fSoul="300" />
-  <Monster fNumber="3" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="400" fSoul="400" />
-  <Monster fNumber="4" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="500" fSoul="500" />
-  <Monster fNumber="5" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="600" fSoul="600" />
-  <Monster fNumber="6" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="700" fSoul="700" />
+  <Monster fNumber="0" sName="구스프림" sDescription="마왕 프로테스의 왼팔이었고, 마왕 프로테스가 봉인되기 마지막까지 그를 위해 싸웠다." fHp="Myth" fLevel="1" fAttack="30" fAttackSpeed="0.1" eAttackType="1" fCritical="1" fDefence="0.1" eDefenceType="0" fGold="10000" fSoul="10000" />
+  <Monster fNumber="1" sName="스컬" sDescription="마계에서 마그와 함께 멍청이 듀오로 유명하다." fHp="Nomal" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="200" fSoul="200" />
+  <Monster fNumber="2" sName="마그" sDescription="마계에서 스컬과 함께 멍청이 듀오로 유명하다." fHp="Nomal" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="200" fSoul="200" />
+  <Monster fNumber="3" sName="트리니" sDescription="호른의 뿔을 따라한거 아니냐라는 평가에 아주 민감하게 반응한다." fHp="Rare" fLevel="1" fAttack="10" fAttackSpeed="0.8" eAttackType="1" fCritical="1" fDefence="0.8" eDefenceType="0" fGold="300" fSoul="300" />
+  <Monster fNumber="4" sName="스웹" sDescription="흉터를 가리기 위해 붕대를 감았다고 하지만, 실은 그의 낡은 패션센스라고 한다." fHp="Epic" fLevel="1" fAttack="10" fAttackSpeed="0.6" eAttackType="1" fCritical="1" fDefence="0.6" eDefenceType="0" fGold="400" fSoul="400" />
+  <Monster fNumber="5" sName="스컬마그" sDescription="스컬과 마그의 결합물이라는 소문이 있었지만 그 결과물이 강해 헛소리로 치부된다." fHp="Unique" fLevel="1" fAttack="10" fAttackSpeed="0.4" eAttackType="1" fCritical="1" fDefence="0.4" eDefenceType="0" fGold="500" fSoul="500" />
+  <Monster fNumber="6" sName="호른" sDescription="그의 뿔을 건드린자 중 살아남은이는 없다고 한다." fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="0.2" eAttackType="1" fCritical="1" fDefence="0.2" eDefenceType="0" fGold="600" fSoul="600" />
 </MonsterList>
