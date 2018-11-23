@@ -11,6 +11,7 @@ public class XMLCharInfoCharacteristic : Singleton<XMLCharInfoCharacteristic>
 
     //string filePath = "./Assets/Resources/CharacteristicList.xml";
     string filePath = "./Assets/08 NewFolder/CharacteristicList.xml";
+    //string filePath = Application.persistentDataPath + "./Assets/08 NewFolder/CharacteristicList.xml";
 
     XmlElement CharacteristicListElement;       // 이거 필수 ㄹㅇ루다...
 
