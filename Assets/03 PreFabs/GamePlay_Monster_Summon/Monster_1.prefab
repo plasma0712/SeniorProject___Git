@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4214899305408266}
   - component: {fileID: 212047716968805856}
-  - component: {fileID: 114903408299930302}
   - component: {fileID: 61920401060351790}
+  - component: {fileID: 114903408299930302}
   m_Layer: 0
   m_Name: Monster_1
   m_TagString: Tower

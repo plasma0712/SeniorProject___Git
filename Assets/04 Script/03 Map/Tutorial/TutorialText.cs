@@ -37,7 +37,7 @@ public class TutorialText : Singleton<TutorialText>
     public GameObject SoulEffect;
     public GameObject TutoriaMainTextLayOut;
     public GameObject TutorialFinally;
-
+    public GameObject SkipButton;
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     #endregion
 
@@ -72,6 +72,8 @@ public class TutorialText : Singleton<TutorialText>
         TutoriaMainTextLayOut.gameObject.SetActive(true);
         TutorialMenualText.text = DummyText.text;
         TemporatySave.text = DummyText.text;
+        SkipButton.gameObject.SetActive(true);
+
         if (TextNumber == 17)
         {
             Debug.Log("씨발 제발 좀");
@@ -80,8 +82,13 @@ public class TutorialText : Singleton<TutorialText>
         if (TextNumber == 18) // 씬넘기기
         {
             SceneChange.Instance.MapSettingGameStartTutorial();
+            yield return new WaitForSeconds(0.9f);
         }
         CurrentText = XMLMapSettingTutorial.Instance.GetMapSettingTutorial(TextNumber);
+        if(TextNumber==23)
+        {
+            yield return new WaitForSeconds(0.2f);
+        }
         EventProduct(CurrentText.EventNumber); // 이벤트씬 
         CharactersName.text = CurrentText.Characters; // 현 대화창 이름
         TemporatySave.text = CurrentText.MenualExplanationText;
@@ -131,19 +138,18 @@ public class TutorialText : Singleton<TutorialText>
         TutorialMenualText.text = CurrentText.MenualExplanationText;
     }
 
-    //
-    //public void TextSkip()
-    //{
-    //    StopCoroutine("TutorialTextCoroutine");
-    //    TutorialMenualText.text = TemporatySave.text;
-    //    NextButton.gameObject.SetActive(true);
-    //    SkipButton.gameObject.SetActive(false);
-    //}
-    //
-
-
+    
+   // public void TextSkip()
+   // {
+   //     SkipButton.gameObject.SetActive(false);
+   //     StopCoroutine("TutorialTextCoroutine");
+   //     TutorialMenualText.text = TemporatySave.text;
+   //     NextButton.gameObject.SetActive(true);
+   // } 18/11/24 전체구조를 뜯어고쳐야해서 불가능.
+    
     public void NextText()
     {
+        SkipButton.gameObject.SetActive(false);
         NextButton.gameObject.SetActive(false);
         if (TextNumber == 22)
         {
@@ -264,6 +270,7 @@ public class TutorialText : Singleton<TutorialText>
         else if (_TextNumber == 24) // 이거 제어 변수해줘야함
         {
             TutorialMenualText.gameObject.SetActive(false);
+            SkillSetactive.Instance.SetactiveTrue();
             EnemyMove.Instance.TutorialMoveSpeed();
             EnemySummon.Instance.StartCoroutine("EnemySummons");
         }

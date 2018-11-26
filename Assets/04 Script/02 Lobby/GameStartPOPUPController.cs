@@ -38,7 +38,10 @@ public class GameStartPOPUPController : Singleton<GameStartPOPUPController>
         }
         else
         {
-            yield break;
+            tCurrentStageNumber.text = ClearStageNumber.Instance.StageNumber.ToString();
+            iEnemyImage.sprite = EnemySprite[3];
+            tCurrentEnemyNumbering.text = "???";
+            
         }
         yield return new WaitForSeconds(0.1f);
     }

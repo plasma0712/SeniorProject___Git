@@ -55,6 +55,7 @@ public class EnemySummon : Singleton<EnemySummon>
                         TutorialText.Instance.TutoriaMainTextLayOut.gameObject.SetActive(true);
                         TutorialText.Instance.TutorialMenualText.gameObject.SetActive(true);
                         Debug.Log("텍스트 Number : " + TutorialText.Instance.TextNumber);
+                        SkillSetactive.Instance.SetactiveFalse();
                         TutorialText.Instance.StartCoroutine("TutorialTextCoroutine");
                         TutorialTextOneMore++;
                         StopCoroutine("EnemySummons");

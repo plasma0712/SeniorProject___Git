@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 135552143607237786}
   - component: {fileID: 114604687250688184}
   m_Layer: 0
-  m_Name: Bullet_2
+  m_Name: Bullet_Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1984541842802688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.136, y: 6.66, z: 9.864734}
+  m_LocalPosition: {x: 5.896902, y: 4.95843, z: 9.864734}
   m_LocalScale: {x: 0.21764895, y: 0.217649, z: 0.217649}
   m_Children:
   - {fileID: 4341940349002978}
@@ -154,7 +154,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cc6dee220e07f7e41811bcca06ea0a1d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.06442697, g: 0.14043263, b: 0.24264705, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

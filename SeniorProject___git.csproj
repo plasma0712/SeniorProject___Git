@@ -367,6 +367,7 @@
     <Compile Include="Assets\ETCCoroutine.cs" />
     <Compile Include="Assets\Loadding.cs" />
     <Compile Include="Assets\MenualImageChange.cs" />
+    <Compile Include="Assets\SkillSetactive.cs" />
     <Compile Include="Assets\UI_SpriteChange.cs" />
   </ItemGroup>
   <ItemGroup>

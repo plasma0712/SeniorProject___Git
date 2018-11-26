@@ -22,13 +22,14 @@ public class Buffer : Singleton<Buffer>
 
     public void CurrentCharacteristicData(int _CUPV_CharacteristicName)
     {
-        CurrentData = XMLCharInfoCharacteristic.Instance.GetCharacteristic((int)_CUPV_CharacteristicName);
+        CurrentData = XMLCharInfoCharacteristic.Instance.GetCharacteristic_((int)_CUPV_CharacteristicName);
     }
 
     public void Characteristic()
     {
         for (int i = 0; i < XMLCharInfoCharacteristic.Instance.CharacteristicLength(); i++)
         {
+            Debug.Log("여기 들어오냐 씨발아!");
             CurrentCharacteristicData(i);
             CharacteristicActivation(CurrentData.InherentNumber);
         }

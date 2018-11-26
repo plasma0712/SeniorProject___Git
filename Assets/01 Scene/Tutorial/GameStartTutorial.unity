@@ -225,6 +225,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1553036072538718, guid: 3a9f6372693dfab41b4a4f9c7546e95e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a9f6372693dfab41b4a4f9c7546e95e, type: 2}
   m_IsPrefabParent: 0
@@ -254,6 +258,7 @@ GameObject:
   - component: {fileID: 907477316}
   - component: {fileID: 907477315}
   - component: {fileID: 907477314}
+  - component: {fileID: 907477318}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -339,6 +344,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &907477318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907477313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a070be18cc8284b963fb14305b8a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkillUI: {fileID: 1132111765}
 --- !u!1 &992555679
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +545,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1608949599333942, guid: 744012b5b0f94b843a71d9936f2ba08e, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 744012b5b0f94b843a71d9936f2ba08e, type: 2}
@@ -536,6 +553,11 @@ Prefab:
 --- !u!224 &1132111764 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224160418404647376, guid: 744012b5b0f94b843a71d9936f2ba08e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1132111763}
+--- !u!1 &1132111765 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1608949599333942, guid: 744012b5b0f94b843a71d9936f2ba08e,
     type: 2}
   m_PrefabInternal: {fileID: 1132111763}
 --- !u!1 &1211913837

@@ -22,7 +22,12 @@ public class SceneChange : Singleton <SceneChange>
 
     public void LobbyStartGameSceneChange()
     {
-        SceneManager.LoadScene("GameStart");
+        if (ClearStageNumber.Instance.StageNumber > 3)
+        {
+            Finish();
+        }
+        else
+            SceneManager.LoadScene("GameStart");
     }
 
     /////////////////////////////////////////////////////////////////////////////
@@ -50,6 +55,11 @@ public class SceneChange : Singleton <SceneChange>
 
     public void GameStartScene()
     {
+        if(ClearStageNumber.Instance.StageNumber>3)
+        {
+            Finish();
+        }
+        else
         SceneManager.LoadScene("GameStart");
     }
 
@@ -57,6 +67,11 @@ public class SceneChange : Singleton <SceneChange>
     {
         XMLClearScene.Instance.NewGameCreateXml();
         SceneManager.LoadScene("Intro");
+    }
+
+    public void Finish()
+    {
+        SceneManager.LoadScene("Finish");
     }
 
 }

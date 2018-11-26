@@ -232,6 +232,18 @@ public class XMLCharInfoCharacteristic : Singleton<XMLCharInfoCharacteristic>
         return null;                                         // 같지아니할경우 null
     }
 
+    public XMLCharInfoCharacteristicData GetCharacteristic_(int _InherentNumber) // Characteristic 얻을 함수
+    {
+        for (int i = 0; i < CharacteristicLength(); i++)         // Characteristic 길이만큼만 돌 예정
+        {
+            if (Characteristics[i].iCount == _InherentNumber) // Characteristics[i]의 InherentNumber값과 _InherentNumber 값이 같을 경우
+            {
+                return Characteristics[i];                           // Characteristics[i]의 값을 부른다.  
+            }
+        }
+        return null;                                         // 같지아니할경우 null
+    }
+
 
 
 }

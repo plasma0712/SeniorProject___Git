@@ -262,7 +262,7 @@ Transform:
   - {fileID: 1107805649}
   - {fileID: 115932473}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.085}
 --- !u!1 &157542307
 GameObject:
@@ -619,7 +619,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &498097858
 GameObject:
@@ -1198,7 +1198,7 @@ Prefab:
     - target: {fileID: 224499381549488700, guid: cc3b9f91d43adfc4ea35add316a9b1b7,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224499381549488700, guid: cc3b9f91d43adfc4ea35add316a9b1b7,
         type: 2}
@@ -1689,9 +1689,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 303eb76cc35d0f84189ff9333cce532f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: {fileID: 0}
-  EventNumber12: {fileID: 0}
-  KeyBoard: {fileID: 0}
+  Title: {fileID: 8300000, guid: 5f19fc1e6e03c064c8fecad5a80f1e33, type: 3}
+  EventNumber12: {fileID: 8300000, guid: 93128d51d5ead764a9dad3234a3319f4, type: 3}
+  KeyBoard: {fileID: 8300000, guid: 10e87e207d6149f44a7e14781d65b332, type: 3}
 --- !u!1 &1492342447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,7 +2110,7 @@ Transform:
   m_Children:
   - {fileID: 1668753904}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1936677214
 MonoBehaviour:
@@ -2344,5 +2344,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
