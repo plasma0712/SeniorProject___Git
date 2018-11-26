@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameStartPOPUPController : Singleton<GameStartPOPUPController>
 {
+    #region 스테이지 클리어시!!!
     public GameObject ToolTipStageEnd;
 
     public Text tCurrentStageNumber;
@@ -59,5 +60,9 @@ public class GameStartPOPUPController : Singleton<GameStartPOPUPController>
         LobbyTopUIData.Instance.GetSoul(200);
         CharacteristicUIData.Instance.GetCharacteristicPoint(5);
     }
+    #endregion
+
+    public GameObject ToolTipGameEnd;
+
 
 }

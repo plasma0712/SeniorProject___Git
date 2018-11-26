@@ -3857,6 +3857,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1553036072538718, guid: 3a9f6372693dfab41b4a4f9c7546e95e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a9f6372693dfab41b4a4f9c7546e95e, type: 2}
   m_IsPrefabParent: 0
@@ -7709,7 +7713,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 286325738}
+      - m_Target: {fileID: 1654792249}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -7723,6 +7727,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1570603712}
         m_MethodName: GameStartPOPUP
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1632025407}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9235,6 +9250,7 @@ MonoBehaviour:
   - {fileID: 21300018, guid: 60d067405483bf04c81634fcb53f3a0e, type: 3}
   - {fileID: 21300076, guid: 60d067405483bf04c81634fcb53f3a0e, type: 3}
   - {fileID: 21300080, guid: 60d067405483bf04c81634fcb53f3a0e, type: 3}
+  ToolTipGameEnd: {fileID: 0}
 --- !u!1 &1576814476
 GameObject:
   m_ObjectHideFlags: 0
@@ -9813,6 +9829,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1438573566064148, guid: 19a77a6999f2e2945ae4a3f8bb04cf49, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19a77a6999f2e2945ae4a3f8bb04cf49, type: 2}
   m_IsPrefabParent: 0
@@ -9839,6 +9859,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1632025402}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1 &1632025407 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1438573566064148, guid: 19a77a6999f2e2945ae4a3f8bb04cf49,
+    type: 2}
+  m_PrefabInternal: {fileID: 1632025402}
 --- !u!1 &1647262860
 GameObject:
   m_ObjectHideFlags: 0
@@ -11373,7 +11398,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 286325738}
+      - m_Target: {fileID: 1654792249}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -11394,6 +11419,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1632025407}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null

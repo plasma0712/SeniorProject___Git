@@ -61,7 +61,7 @@ public class EnemyMove : Singleton<EnemyMove>
         }
         else if (other.transform.tag == "RightDown")
         {
-            int Num = Random.Range(0, 1);
+            int Num = Random.Range(0, 2);
             if (Num == 0)
             {
                 MovePoint = Vector3.right;
@@ -74,6 +74,11 @@ public class EnemyMove : Singleton<EnemyMove>
         else if (other.transform.tag == "Down")
         {
             MovePoint = Vector3.down;
+        }
+        else if (other.transform.tag == "Exit")
+        {
+            Destroy(this.gameObject);
+            LobbyTopUIData.Instance.UseHeart(1);
         }
         else
         {

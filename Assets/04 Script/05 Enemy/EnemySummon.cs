@@ -101,6 +101,7 @@ public class EnemySummon : Singleton<EnemySummon>
 
     IEnumerator StageEnemySummons()
     {
+        StartCoroutine("StageClear");
         while (true)
         {
             yield return new WaitForSeconds(3.0f);
@@ -132,7 +133,6 @@ public class EnemySummon : Singleton<EnemySummon>
             else
             {
                 //Debug.Log("여기 들어오긴하냐?");
-                StartCoroutine("StageClear");
                 StopCoroutine("StageEnemySummons");
             }
         }
@@ -142,17 +142,18 @@ public class EnemySummon : Singleton<EnemySummon>
     {
         while (true)
         {
-//            Debug.Log("여기 들어오긴하냐고!!!!!!!");
+            //            Debug.Log("여기 들어오긴하냐고!!!!!!!");
             yield return new WaitForSeconds(1.0f);
-            if (MonsterList.Count == 0  && LobbyTopUIData.Instance.iHeart > 0)
+            if (EnemySummon.Instance.iCountingMonster >= 10 && MonsterList.Count == 0 && LobbyTopUIData.Instance.iHeart > 0)
             {
                 GameStartPOPUPController.Instance.ToolTipStageEnd.gameObject.SetActive(true);
                 GameStartPOPUPController.Instance.StartCoroutine("GameStartButtonClick");
                 StopCoroutine("StageClear");
             }
-            else if(LobbyTopUIData.Instance.iHeart<=0)
+            else if (LobbyTopUIData.Instance.iHeartOrigin <= 0)
             {
-                //패배처리...
+                GameStartPOPUPController.Instance.ToolTipGameEnd.SetActive(true);
+                StopCoroutine("StageClear");
             }
         }
     }

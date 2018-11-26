@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 157542319}
   - component: {fileID: 157542321}
   - component: {fileID: 157542322}
+  - component: {fileID: 157542323}
   m_Layer: 0
   m_Name: 'XML_TotalManagement '
   m_TagString: Untagged
@@ -476,6 +477,17 @@ MonoBehaviour:
   CurrentfEnemySpeed: 0
   fTowerDelay: 0
   CurrentfTowerDelay: 0
+--- !u!114 &157542323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 157542307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fc84ca4544f244a8080b6a5a062277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &178429166
 GameObject:
   m_ObjectHideFlags: 0
