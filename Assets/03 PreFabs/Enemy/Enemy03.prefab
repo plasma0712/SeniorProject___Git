@@ -326,9 +326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 666b5aa38d505f04fa951ed1794c47d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
-  CurHp: 10000
-  MaxHp: 10000
+  Speed: 1.5
+  CurHp: 15000
+  MaxHp: 15000
   Count: 0
   StartObject: {fileID: 0}
   TutorialSpot: {fileID: 1233158070849308}

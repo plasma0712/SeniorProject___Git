@@ -156,7 +156,7 @@ MonoBehaviour:
   firePos: {fileID: 4214899305408266}
   BC: {fileID: 0}
   aaa: 0
-  DelayBulletTime: 0.1
+  DelayBulletTime: 0.4
   ObjectInRangeList: []
 --- !u!114 &114903408299930302
 MonoBehaviour:
